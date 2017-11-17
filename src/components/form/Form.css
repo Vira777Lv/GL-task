@@ -1,0 +1,41 @@
+input, textarea, button { outline: none; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.form input {
+  border: 1px solid rgb(144, 144, 144);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+  padding: 15px 0 15px 15px;
+  width: 96%;
+}
+
+.form textarea {
+  border: 1px solid #919191;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+  padding: 15px 0 0 15px;
+  width: 96%;
+}
+
+.form button {
+  background: #333;
+  border-width: 0;
+  border-radius: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 30px;
+  padding: 15px 0;
+  width: 40%;
+}

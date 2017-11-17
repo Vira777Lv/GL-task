@@ -1,0 +1,16 @@
+.black {
+  color: #333;
+  font-size: 40px;
+}
+
+.grey {
+  color: #9b9a9a;
+  font-size: 40px;
+}
+
+.skillsList {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 0 6px 90px;
+}

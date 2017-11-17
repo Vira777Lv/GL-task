@@ -1,0 +1,42 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.contact h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0 0 50px 0;
+}
+
+.contactBlock {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: 800px;
+}
+
+.contactBlock ul {
+  list-style: none;
+  margin: 0 170px 0 0;
+  padding: 0;
+}
+
+.contactBlock li{
+  margin-bottom: 31px;
+  padding-bottom: 8px;
+  margin-top: -18px;
+}
+
+.contactBlock span {
+  color: #888;
+}
+
+.contactBlock p {
+  margin: 10px 0;
+}
