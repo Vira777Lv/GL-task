@@ -14,3 +14,13 @@
   margin: 0;
   padding: 0 0 6px 90px;
 }
+
+/* Media query */
+@media (max-width: 991px) {
+  .skillsList { padding: 0 0 6px 70px; }
+  .black, .grey { font-size: 35px; }
+}
+
+@media (max-width: 768px) {
+  .black, .grey { font-size: 30px; }
+}

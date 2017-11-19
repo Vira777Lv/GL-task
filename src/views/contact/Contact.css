@@ -40,3 +40,26 @@
 .contactBlock p {
   margin: 10px 0;
 }
+
+/* Media query */
+
+@media (max-width: 991px) {
+  .contact h2 { font-size: 25px }
+  .contactBlock {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .contactBlock ul {
+    display: flex;
+    margin: 0;
+  }
+  .contactBlock li{
+    padding: 0 15px;
+  }
+  .contactBlock p { text-align: center }
+}
+
+@media (max-width: 420px) {
+  .contactBlock ul { display: none }
+}

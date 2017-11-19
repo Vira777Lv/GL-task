@@ -23,6 +23,7 @@ input, textarea, button { outline: none; }
   margin: 10px 0;
   padding: 15px 0 0 15px;
   width: 96%;
+  resize: none;
 }
 
 .form button {
@@ -35,7 +36,27 @@ input, textarea, button { outline: none; }
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
-  margin: 20px 0 30px;
+  margin: 15px 0 30px;
   padding: 15px 0;
-  width: 40%;
+  width: 50%;
 }
+
+/* Media query */
+
+@media (max-width: 991px) {
+  .form { width: 90% }
+}
+
+@media (max-width: 768px) {
+  .form { width: 80% }
+}
+
+@media (max-width: 680px) {
+  .form { width: 50% }
+}
+
+@media (max-width: 420px) {
+  .form { width: 40% }
+}
+
+

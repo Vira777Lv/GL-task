@@ -14,6 +14,7 @@ function Header() {
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <div className={styles.mobileMenu}>.</div>
       </nav>
     </header>
   );

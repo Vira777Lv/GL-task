@@ -18,3 +18,17 @@
   padding: 4px;
   white-space: nowrap;
 }
+
+/* Media query */
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 420px) {
+
+}

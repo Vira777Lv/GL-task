@@ -14,7 +14,7 @@ function Skills() {
         <div className={styles.container}>
           {skills.map((skill, index) => (
             <div key={index} className={styles.skillsItem}>
-              <div className={styles.skillsName}>{skill.name}</div>
+              <h3>{skill.name}</h3>
               <RatingWidget level={skill.level} />
             </div>
           ))}

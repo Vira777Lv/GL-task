@@ -11,7 +11,7 @@
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  padding-top: 50px;
+  padding-top: 170px;
 }
 
 .title h1 {
@@ -23,4 +23,30 @@
   font-size: 30px;
   font-style: italic;
   font-weight: 400;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+/* Media query */
+@media (max-width: 991px) {
+  .banner { height: 550px; }
+  .title { padding: 90px; }
+  .title h1 {font-size: 40px; }
+  .title h2 {font-size: 25px; }
+}
+
+@media (max-width: 768px) {
+  .banner { height: 400px; }
+  .title { padding: 50px; }
+  .title h1 {font-size: 30px; }
+  .title h2 {font-size: 20px; }
+}
+
+
+@media (max-width: 420px) {
+
 }

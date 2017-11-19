@@ -4,13 +4,33 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-}
 
 .main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+}
+
+/* Media query */
+/*======================= it`s test styles ==============================*/
+@media (max-width: 991px) {
+  .main {
+    background: gold;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-color: darkseagreen;
+    color: #000;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .main {
+    background-color: #555;
+    color: #fff;
+  }
 }
